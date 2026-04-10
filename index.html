@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link  rel="stylesheet"    href="../Lab1/bootstrap.min.css"  />
+        <script  src="../Lab1/bootstrap.bundle.min.js"  ></script>
+      
+           <link  rel="stylesheet"    href="index.css"  />
+</head>
+<body>
+      <div class=" backLayout     w-100   position-absolute  z-0">
+                  <h1  class="text-white  text-center   py-2 ">ITI Task Management</h1>
+                      <div class="mainSection   px-5  container    w-100   py-5     ">
+                             <div  id="userContainer" class="row   g-3     userContainer">
+                             <div class="col-md-3    ">
+                     <div class="mainContent     bg-white  py-3  rounded-3      px-3        ">
+                                      <div  class="d-flex   bottomBorder   mb-4   justify-content-between">
+                                        <h4  class="fs-6 ">📄 Tasks Board</h4>
+                                         <h5  id="tasksNum"  class="bg-warning  px-2  d-flex justify-content-center align-items-center  text-white   rounded-5  ">0</h5>
+                                             
+                                   </div>
+                                    <div class="tasksInput    d-flex  justify-content-between     ">
+                                                    <input  id="tasks"  type="text"  class=" px-2 py-1  rounded-2    tasks  fs-6"  placeholder="Add a Task...... ">
+                                                      <button  id="addTask"  type="submit" class="btn  btn-sm  text-white   addTask  bg-warning ">Add</button>
+
+                                              </div>
+     <div   id="taskBoxContainer" class="taskboxContainer   "  >
+               <div  id="noTasks"  class="  noTasks d-flex     flex-column justify-content-center align-items-center  ">
+                    <p    class="text-muted  ">No Tasks yet , add tasks here</p>
+
+               </div>
+    
+               <!-- <div class="taskBox   d-flex  justify-content-between  px-2   rounded-3   align-items-baseline ">
+                    <p   id="taskBox"  class="taskName">TaskName</p>
+<button  id="deleteBtn" class="btn  deleteBtn       "> <i class="fa-solid fa-x   rounded-circle  p-2   fs-6    bg-danger"></i></button>
+
+                    
+               </div> -->
+
+     </div>  
+                 
+        </div>
+                 </div>
+                  
+                    <div class=" col-md-9   ">
+         <div   id="usersArea" class="row  usersArea g-3">
+                     
+                              </div>
+
+                                         </div>
+                                          
+                                      <!-- <div class="col-md-3  userInfo   bg-white  py-3 rounded-3  px-3 ">
+                                            <div class="memberName  border-bottom-1    d-flex   justify-content-between  align-items-center ">
+                                                  
+                                                   <h4  class="w-auto  ">  <span><i class="fa-solid fa-user   px-2   user"></i></span>Abdalla </h4>
+                                                     <h5   id="userNum" class=" userNumber  w-auto  px-2   rounded-5  ">1</h5>
+                                            </div>
+
+                                      </div> -->
+
+                                 </div>
+                        
+                          
+                      </div>
+                            
+                   
+                 
+      </div>
+
+
+        <!-- layout    div ---------------------------------- -->
+      <div  id="layout"  class="layout    z-1   ">
+
+      </div>
+
+      <!-- Team ALERT ---------------------------------------- -->
+       <div  id="teamAlert" class="teamAlert  position-absolute         d-flex h-100 justify-content-center  align-items-center  w-100  z-2 ">
+             <div class="teamNames  d-flex  flex-column        bg-white  rounded-3  py-3 px-4   ">
+                              <h2   class="fs-5   text-capitalize"><i class="fa-solid fa-users mx-2"></i> Set Up your Team </h2>
+                                <p  class="text-muted">Enter your team names seperated by comma </p>
+                                 <input  id="inputNames" type="text"  class="px-3  inputNames  py-1       rounded-2"  placeholder="e.g.,John,Sara,ali">
+                                 <button id="createBoard"   type="submit"  class="btn   mt-3   text-white  ">Create Board</button>
+                    </div>
+                                </div>
+    
+
+      <script  src="index.js"  ></script>
+</body>   
+</html>

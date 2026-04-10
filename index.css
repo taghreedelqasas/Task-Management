@@ -1,0 +1,100 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+  /* background:linear-gradient(135deg, #647de4, #6b6ecc, #59549d) !important; */
+  /* background-color: #6b6ecc; */
+
+ }
+.backLayout{
+        background: linear-gradient(135deg, #647de4, #6b6ecc, #59549d) !important;
+        min-height: 100vh;
+           
+ }
+.teamNames{
+    width: 400px;
+}
+/* .mainContent{
+    width: 400px;
+     height: 400px;
+  
+} */
+.container{
+    max-width: 2000px !important;   
+}
+ .layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+   
+} 
+
+.teamAlert  .btn{
+          background: linear-gradient(135deg, #647de4, #6b6ecc, #59549d) !important;
+           
+}
+ .inputNames:focus,.tasks{
+outline:1px solid  #b9c3ef !important ; 
+   
+} 
+.inputNames,.tasks{
+    border:1px solid  lightgray !important ; 
+}
+ .user,.fa-users{
+     color:#6b6ecc ; 
+
+ }
+ .tasks{
+    width: 75%  !important;
+ }
+ .userNumber{
+         background-color: #6b6ecc; 
+ }
+ .bottomBorder{
+    border-bottom: 1px solid lightgray !important;
+ }
+.taskBox{
+     border: none !important; 
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+     font-size: 12px  !important;
+     font-weight: 500  !important;
+     width: 98%;
+
+}
+.taskBox:hover{
+      transform: translate(2px,-2px) ;
+       transition: all .3s;
+}
+/* ------------tasks for each memeber */
+.emptyTaskContainer{
+       height:200px !important ;
+}
+
+.taskboxContainer{
+    min-height: 200px !important;
+    overflow-y: auto !important;
+    position: relative;
+}
+.noTasks{
+    position: absolute;
+   top: 0;
+   left: 0;
+  bottom: 0;
+   width: 100%;
+   
+}
+.draggedstyle{
+      /* background-color: #FED0C7; */
+      border-left: 2px solid tomato  !important;
+      
+}
+.selectBox{
+    width: 100%;
+}
+.memberTasks{
+    min-height:200px ;
+}
